@@ -1,9 +1,12 @@
-fastapi==0.95.1
-uvicorn==0.21.1
-pandas==1.5.3
-numpy==1.23.5
-scikit-learn==1.2.2
-matplotlib==3.6.2
-plotly==5.10.0
-pdfkit==1.0.0  # Optional, for PDF report generation
-jinja2==3.1.2  # For templating if needed in reports
+# Core FastAPI dependencies
+fastapi==0.100.0
+uvicorn==0.22.0
+
+# Data processing and analysis
+pandas==2.1.1
+numpy==1.25.2
+scikit-learn==1.3.0
+
+# Visualization for API or report generation
+matplotlib==3.8.0
+plotly==5.17.0
